@@ -1,0 +1,377 @@
+CRITICAL - 2020-12-27 09:39:50 --> Invalid argument supplied for foreach()
+#0 /var/www/CodeIgni4/app/Views/dino/info.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/CodeIg...')
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/CodeIgni4/app/Controllers/Dino.php(14): view()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#5 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#9 {main}
+CRITICAL - 2020-12-27 09:40:27 --> Invalid argument supplied for foreach()
+#0 /var/www/CodeIgni4/app/Views/dino/info.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/CodeIg...')
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/CodeIgni4/app/Controllers/Dino.php(15): view()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#5 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#9 {main}
+CRITICAL - 2020-12-27 09:43:28 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:43:44 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:44:04 --> Call to a member function model() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:44:11 --> Call to a member function model() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:45:56 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:46:08 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:46:32 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:46:33 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:47:02 --> Call to a member function model() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:48:00 --> Call to a member function model() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:51:40 --> Class 'App\Models\Dino_Model' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:52:50 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 09:55:45 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:06:18 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:07:56 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:16:26 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:16:49 --> Call to a member function getAll() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:18:09 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:27:32 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:29:40 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:31:58 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:33:09 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:34:09 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:34:43 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:34:59 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:35:45 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:42:02 --> Class 'App\Models\DinoModel' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:48:05 --> Call to a member function getAll() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:48:28 --> Call to a member function getAll() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:49:02 --> Class 'App\Controllers\Dino_Model' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:49:19 --> Class 'App\Controllers\Dino_Model' not found
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:49:37 --> Call to undefined method App\Controllers\Dino::getAll()
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:49:48 --> Call to undefined method App\Controllers\Dino::getAll()
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:49:55 --> Call to undefined method App\Controllers\Dino::getAll()
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:50:28 --> Call to a member function getAll() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 10:51:19 --> Call to a member function query() on null
+#0 /var/www/CodeIgni4/app/Controllers/Dino.php(13): App\Models\DinoModel->getAll()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#6 {main}
+CRITICAL - 2020-12-27 10:51:27 --> Call to a member function query() on null
+#0 /var/www/CodeIgni4/app/Controllers/Dino.php(13): App\Models\DinoModel->getAll()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#6 {main}
+CRITICAL - 2020-12-27 10:53:40 --> Call to a member function query() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->site()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:13:19 --> Call to a member function getAll() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:13:37 --> Call to a member function getAll() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:13:38 --> Call to a member function getAll() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:13:50 --> Call to a member function getAll() on null
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:16:56 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:17:11 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:18:16 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:18:42 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:18:44 --> Cannot call constructor
+#0 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(892): App\Controllers\Dino->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#5 {main}
+CRITICAL - 2020-12-27 11:26:00 --> Too few arguments to function App\Models\DinoModel::__construct(), 0 passed in /var/www/CodeIgni4/app/Controllers/Dino.php on line 12 and exactly 1 expected
+#0 /var/www/CodeIgni4/app/Controllers/Dino.php(12): App\Models\DinoModel->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#6 {main}
+CRITICAL - 2020-12-27 11:26:01 --> Too few arguments to function App\Models\DinoModel::__construct(), 0 passed in /var/www/CodeIgni4/app/Controllers/Dino.php on line 12 and exactly 1 expected
+#0 /var/www/CodeIgni4/app/Controllers/Dino.php(12): App\Models\DinoModel->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#6 {main}
+CRITICAL - 2020-12-27 11:26:14 --> Too few arguments to function App\Models\DinoModel::__construct(), 0 passed in /var/www/CodeIgni4/app/Controllers/Dino.php on line 12 and exactly 1 expected
+#0 /var/www/CodeIgni4/app/Controllers/Dino.php(12): App\Models\DinoModel->__construct()
+#1 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(920): App\Controllers\Dino->index()
+#2 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/CodeIgni4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/CodeIgni4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/CodeIg...')
+#6 {main}
